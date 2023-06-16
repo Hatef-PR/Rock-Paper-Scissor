@@ -33,7 +33,7 @@ public class Main {
         System.out.println("You: " + userWin);
         System.out.println("Computer: " + computerWin);
     }
-    // this method checks the user won the game or not
+    // This method checks the user won the game or not
     public static boolean checkUserWin(String userInput, String computerPick) {
         boolean flag = false;
         if (userInput.equals("r") && computerPick.equals("p") ||
@@ -43,7 +43,7 @@ public class Main {
         }
         return flag;
     }
-    // this method checks the computer won the game or not
+    // This method checks the computer won the game or not
     public static boolean checkComputerWin(String userInput, String computerPick) {
         boolean flag = false;
         if (computerPick.equals("r") && userInput.equals("p") ||
